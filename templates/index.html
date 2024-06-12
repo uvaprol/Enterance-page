@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enterance</title>
+    <link rel="stylesheet" href="../static/index/style/style.css">
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>
+                <span id="logIn" onclick="logSwitch('log')">Log In</span>
+                <span style="cursor: auto;"> / </span>
+                <span id="signIn" onclick="logSwitch('sig')">Sign In</span>
+            </h1>
+            <input type="text" placeholder="name" style="opacity: 0; height: 0px; margin-bottom: 0px;">
+            <input type="text" placeholder="surname" style="opacity: 0;  height: 0px;  margin-bottom: 0px;"> 
+            <input type="tel" placeholder="tel" style="opacity: 0;  height: 0px;  margin-bottom: 0px;">    
+            <input type="text" placeholder="login">
+            <input type="password" placeholder="password">
+            <button onclick="log(true)">Log in</button>
+        </section>
+    </main>
+</body>
+    <script src="../static/index/scripts/script.js"></script>
+    <script src="../static/index/scripts/animation.js"></script>
+</html>

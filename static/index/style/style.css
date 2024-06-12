@@ -1,0 +1,81 @@
+::-moz-placeholder {
+  color: bisque;
+}
+
+*, ::placeholder {
+  color: bisque;
+}
+
+@keyframes BtnSwitch {
+  0% {
+    opacity: 1;
+    content: "Login";
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    content: "Login";
+  }
+}
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/1654748790_47-furman-top-p-priroda-art-minimalizm-krasivo-oboi-48.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body main {
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main section {
+  background-color: rgba(255, 137, 95, 0.3137254902);
+  border-radius: 10px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main section h1 {
+  height: 60px;
+  font-size: 200%;
+  cursor: pointer;
+}
+body main section #logIn {
+  font-size: 150%;
+  transition: font-size 0.5s ease-in-out;
+}
+body main section #signIn {
+  font-size: 100%;
+  transition: font-size 0.5s ease-in-out;
+}
+body main section input, body main section button {
+  border: none;
+  outline-color: bisque;
+  background-color: rgba(110, 59, 40, 0.4392156863);
+  margin-bottom: 32px;
+  width: 60%;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 150%;
+  padding-left: 1%;
+  transition: all 1s;
+}
+body main section button {
+  width: 20%;
+  cursor: pointer;
+  transition: font-size 0.5s ease-in-out;
+}
+body main section button:active {
+  background: rgba(255, 137, 95, 0.3137254902);
+  border: rgba(110, 59, 40, 0.4392156863) solid 1px;
+  border-bottom: 1px;
+}/*# sourceMappingURL=style.css.map */
